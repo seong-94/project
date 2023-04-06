@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  let btn = 12;
   return (
     <>
       <Head>
@@ -23,7 +24,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
+              By {btn}{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
